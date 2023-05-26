@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D5D5"
+    android:backgroundTint="#D5D6D6"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonDBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/dbs"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ocbs"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/buttonUOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/uob"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>
